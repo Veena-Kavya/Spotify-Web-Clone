@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+}
+
+
+li,a{
+     font-size:20px;
+     color: black;
+     text-decoration: none;
+     font-weight: bold;
+
+}
+
+.navbar{
+    background-color: #ffbd4b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 20px;
+}
+
+.re_navbar{
+    display: flex;
+    padding: 20px;
+}
+.logo{
+    cursor: pointer;
+    display: flex;
+    padding: 10px 5px 0px 20px;
+}
+
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav_links li a:hover{
+    color:green;
+
+}
+
+.text{
+    padding: 40px 0px 0px 270px;
+    font-size: 40px;
+    
+}
+.text:hover{
+    cursor: pointer;
+    text-decoration: underline;
+
+    
+}
+
+.body{
+    background-color: #ffbd4b;
+    display: flex;
+}
+.bodypics{
+    margin:30px;
+}
+
+/* ............... */
+.releases{
+    margin: 10px;
+    background-color: white;
+}
+
+.repics{
+    display: flex;
+}
+
+.release1{
+    padding:0px 0px 0px 25px;
+}
+.release2{
+    margin:20px ;
+}
+.release3{
+    margin:20px;
+}
+.release4{
+    padding:0px 60px 0px 0px;
+}
+
+.re_navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.view{
+    display: inline-block;
+    justify-content: space-between;
+}
+
+/* ............. */
+.spotlight{
+    background-color: white;
+}
+.pds{
+    display: flex;
+}
+.pdtext{
+    padding: 30px;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.pd1{
+    padding:30px;
+}
+.pd2{
+     
+    padding:40px;
+    margin:20px;
+    
+}
+pd3{
+    margin:40px;
+}
+
+/* ........................... */
+.inbox{
+    background-color: black;
+    padding:30px 0px 20px 50px;
+    
+}
+.design{
+    font-size: 40px;
+    color: white;
+}
+form {
+    width:auto;
+    
+    margin: auto;
+    padding: 150px 10px 20px 900px;
+    display: flex;
+}
+  
+.label {
+    display: block;
+    margin-bottom: 10px;
+}
+  
+.input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    
+}
+  
+input[type="submit"] {
+    width: 10%;
+    height: 8%;
+    padding: 10px;
+   
+    color:black;
+   
+    cursor: pointer;
+}
+
+.form-text{
+    font-size: small;
+    color: gray;
+    font-weight: lighter;
+    padding: 150px 10px 20px 900px;
+}
+
+  /* ........... */
+.tools{
+    background-color: white;
+    color: black;
+   
+}
+
+.tool-text{
+    display: flex;
+    justify-content: space-between ;
+    padding:30px;
+}
+
+.pics{
+    display: flex;
+    
+    
+}
+.tool1{
+    padding: 20px;
+}
+.tool2{
+    padding: 20px;
+}
+
+/* ............ */
+.footer{
+    background-color: #ffd0d5;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+.footer:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.log{
+    display: flex;
+}
+ 
