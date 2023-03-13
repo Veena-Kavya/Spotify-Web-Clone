@@ -49,8 +49,9 @@ li,a{
 }
 
 .text{
-    padding: 40px 0px 0px 270px;
+    padding: 40px 40px 0px 270px;
     font-size: 40px;
+   
     
 }
 .text:hover{
@@ -66,6 +67,8 @@ li,a{
 }
 .bodypics{
     margin:30px;
+    padding-bottom: 40px;
+    transform: rotate(10deg);
 }
 
 /* ............... */
@@ -76,6 +79,7 @@ li,a{
 
 .repics{
     display: flex;
+    
 }
 
 .release1{
@@ -216,4 +220,3 @@ input[type="submit"] {
 .log{
     display: flex;
 }
- 
